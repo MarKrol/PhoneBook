@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="655ad693-93f9-46f4-a1ab-9ac66dc3f3c5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VsK734XlUKpcijmGUu9h302DdG" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cwiczenia2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.Main" />
+      <module name="PhoneBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.camp.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="655ad693-93f9-46f4-a1ab-9ac66dc3f3c5" name="Default Changelist" comment="" />
+      <created>1578036191374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578036191374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1210" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1578096612250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1210" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578096612250" />
+    <state width="403" height="466" key="DebuggerActiveHint" timestamp="1578092676578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="403" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1578092676578" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578237042493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578237042493" />
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom" timestamp="1578273072302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578273072302" />
+    <state width="1877" height="266" key="GridCell.Tab.0.center" timestamp="1578273072302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578273072302" />
+    <state width="1877" height="266" key="GridCell.Tab.0.left" timestamp="1578273072302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578273072302" />
+    <state width="1877" height="266" key="GridCell.Tab.0.right" timestamp="1578273072302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578273072302" />
+    <state width="1877" height="249" key="GridCell.Tab.1.bottom" timestamp="1578273014102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578273014102" />
+    <state width="1877" height="249" key="GridCell.Tab.1.center" timestamp="1578273014102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578273014102" />
+    <state width="1877" height="249" key="GridCell.Tab.1.left" timestamp="1578273014102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578273014102" />
+    <state width="1877" height="249" key="GridCell.Tab.1.right" timestamp="1578273014102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578273014102" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1578036718059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1578036718059" />
+    <state x="342" y="140" key="new project wizard" timestamp="1578237038305">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578237038305" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578228906185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578228906185" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578267203692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578267203692" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="UserRepository.getUserRepository().getUserStructures()" language="JAVA" />
+        <watch expression="temp instanceof Individual" language="JAVA" />
+        <watch expression="((Individual) temp).getSurname()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
