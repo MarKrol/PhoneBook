@@ -523,7 +523,7 @@ public class Methods {
             showNameColumnsPersonIndividual();
             System.out.println();
             repositoryPersonIndywidual(temp);
-            System.out.println("\n"+"-------------------- Baza firm --------------------"+"\n");
+            System.out.println("\n"+"------------------------ Baza firm ------------------------"+"\n");
             showNameColumnsCorporation();
             System.out.println();
             repositoryCorporation(temp);

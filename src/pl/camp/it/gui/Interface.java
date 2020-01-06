@@ -1,5 +1,6 @@
 package pl.camp.it.gui;
 
+import pl.camp.it.info.Info;
 import pl.camp.it.methods.Methods;
 
 import java.util.Scanner;
@@ -80,6 +81,9 @@ public class Interface {
             case "4":
                 System.out.println();
                 showSubmenuMainMenuOption4();
+            case "5":
+                Info.showInfo();
+                break;
             case "6":
                 System.exit(0);
                 break;
