@@ -10,7 +10,7 @@ public class UserRepository{
 
     private UserStructure[] userStructures = new UserStructure[size];
 
-    public UserRepository(){
+    private UserRepository(){
         this.userStructures[0] = new Individual("Fredry", "34a", "36040", "Kraków",
                 "małopolskie", "Polska","+4812123456789",
                 "Michał", "Gac");
