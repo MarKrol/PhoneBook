@@ -1,11 +1,17 @@
 package pl.camp.it.gui;
 
 import pl.camp.it.info.Info;
+import pl.camp.it.lista.Lista;
 import pl.camp.it.methods.Methods;
+import pl.camp.it.user.UserStructure;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Interface {
+
+    static Lista lista = new Lista();
 
     private static void printMainMenu(){
         System.out.println("-------------------- PHONEBOOK --------------------");
@@ -99,15 +105,17 @@ public class Interface {
         printSubmenuMainMenuOption1();
         switch(Methods.scannerLine()){
             case "1":
-                Methods.showRepositoryPersonIndywidual();
+                //Methods.showRepositoryPersonIndywidual();
+                lista.showIndividual();
                 break;
             case "2":
-                Methods.showRepositoryCorporation();
+                //Methods.showRepositoryCorporation();
+                lista.showBusiness();
                 break;
             case "3":
-                Methods.showRepositoryPersonIndywidual();
+                lista.showIndividual();
                 System.out.println();
-                Methods.showRepositoryCorporation();
+                lista.showBusiness();
                 System.out.println();
                break;
             case "4":
@@ -127,17 +135,26 @@ public class Interface {
             case "1":
                 System.out.println("");
                 System.out.print("Podaj nazwisko: ");
-                Methods.showFoundItemsPersonIndividual();
+                //Methods.showFoundItemsPersonIndividual();
+                lista.findIndividual(Methods.scannerLine(),1);
+                System.out.println();
                 break;
             case "2":
                 System.out.println("");
                 System.out.print("Podaj nazwę: ");
-                Methods.showFoundItemsCompany();
+                lista.findBusiness(Methods.scannerLine(), 2);
+                //Methods.showFoundItemsCompany();
+                System.out.println();
                 break;
             case "3":
+                String nrphone;
                 System.out.println("");
                 System.out.print("Podaj numer telefonu: ");
-                Methods.showFoundNumberPhone();
+                //Methods.showFoundNumberPhone();
+                nrphone = Methods.scannerLine();
+                lista.findIndividual(nrphone, 3);
+                lista.findBusiness(nrphone, 4);
+                System.out.println();
                 break;
             case "4":
                 showMainMenu();
@@ -154,11 +171,13 @@ public class Interface {
         printSubmenuMainMenuOption3();
         switch(Methods.scannerLine()){
             case "1":
-                Methods.addPersonIndivdual();
+                //Methods.addPersonIndivdual();
+                lista.addDataIndywidualne();
                 System.out.println();
                 break;
             case "2":
-                Methods.addCompany();
+                //Methods.addCompany();
+                lista.addDataBusiness();
                 System.out.println();
                 break;
             case "3":
@@ -178,13 +197,19 @@ public class Interface {
         switch(Methods.scannerLine()){
             case "1":
                 System.out.println();
-                Methods.showRepositoryPersonIndywidual();
-                Methods.supportingDeletePersonIndywidual();
+                //Methods.showRepositoryPersonIndywidual();
+                lista.findAllIndividual();
+                //Methods.supportingDeletePersonIndywidual();
+                System.out.print("\nPodaj nr indeksu do usunięcia: ");
+                lista.deleteIndividualIndex(Methods.scannerLine());
                 break;
             case "2":
                 System.out.println();
-                Methods.showRepositoryCorporation();
-                Methods.supportingDeleteCorporation();
+                //Methods.showRepositoryCorporation();
+                lista.findAllBusiness();
+                //Methods.supportingDeleteCorporation();
+                System.out.print("\nPodaj nr indeksu do usunięcia: ");
+                lista.deleteBusinessIndex(Methods.scannerLine());
                 break;
             case "3":
                 showMainMenu();

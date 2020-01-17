@@ -14,13 +14,13 @@ public class Methods {
     }
 
     //Metoda wypisująca nazwy kolumn dla prywatnej osoby
-    private static void showNameColumnsPersonIndividual(){
+    public static void showNameColumnsPersonIndividual(){
         System.out.format("%-10s %-25s %-30s %-35s %-10s %-30s %-10s %-40s %-35s %-25s", "[Indeks]","[Imię]",
                 "[Nazwisko]", "[Ulica]","[Numer]", "[Miasto]", "[Kod]", "[Województwo]", "[Kraj]","[Nr telefonu]");
     }
 
     //Metoda wypisująca nazwy kolumn dla korporacji
-    private static void showNameColumnsCorporation(){
+    public static void showNameColumnsCorporation(){
         System.out.format("%-10s %-35s %-20s %-35s %-10s %-30s %-10s %-40s %-35s %-25s", "[Indeks]","[Nazwa]",
                 "[NIP]", "[Ulica]","[Numer]", "[Miasto]", "[Kod]", "[Województwo]", "[Kraj]","[Nr telefonu]");
     }
@@ -198,6 +198,7 @@ public class Methods {
         return stringEmpty();
     }
 
+
     //Metoda zwracająca nazwisko osoby indywidualnej do bazy
     private static String addPersonSurname(){
         System.out.print("Nazwisko: ");
@@ -258,7 +259,23 @@ public class Methods {
         System.out.print("Numer telefonu: ");
         return givenOnlyNumber();
     }
+//------------------------------------------------- LISTY -----------------------------------------------------//
+    //Metoda zwracająca do listy dane indywidualne
+    public UserStructure dataToListIndividual(){
+        UserStructure temp = new Individual(addStreet(), addBuldingNumber(), addZip(), addCity(), addProvince(),
+                addCountry(),addNumberPhone(),addPersonName(), addPersonSurname());
 
+        return temp;
+    }
+
+    public UserStructure dataToListBusiness(){
+        UserStructure temp = new Business(addStreet(), addBuldingNumber(), addZip(), addCity(), addProvince(),
+                addCountry(),addNumberPhone(),addNameCompany(),addNipCompany());
+
+        return temp;
+    }
+
+// ----------------------------------------------------------------------------------------------------------//
 
     //Metoda wywołująca dodanie danych do bazy osób indywidualnych
     public static void addPersonIndivdual(){
